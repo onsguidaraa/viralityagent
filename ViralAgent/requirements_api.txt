@@ -1,0 +1,35 @@
+# ViralAgent FastAPI Server — Python dependencies
+# Install with: pip install -r requirements_api.txt
+
+# --- Web framework ---
+fastapi>=0.111.0
+uvicorn[standard]>=0.29.0
+python-multipart>=0.0.9
+
+# --- ML / Inference (already needed by the pipeline) ---
+numpy>=1.24.0
+xgboost>=2.0.0
+lightgbm>=4.0.0
+scikit-learn>=1.3.0
+shap>=0.44.0
+
+# --- Vision ---
+torch>=2.0.0
+torchvision>=0.15.0
+transformers>=4.38.0   # CLIP
+Pillow>=10.0.0
+opencv-python>=4.8.0
+
+# --- Audio ---
+openai-whisper>=20231117
+librosa>=0.10.0
+soundfile>=0.12.1
+
+# --- Text ---
+sentence-transformers>=2.6.0
+
+# --- LLM ---
+groq>=0.9.0
+
+# --- Utils ---
+ffmpeg-python>=0.2.0
